@@ -24,7 +24,7 @@ This article covers what agentic workflows are, how to install and use workflows
 
 ## What Are Agentic Workflows?
 
-An agentic workflow is a markdown file that combines YAML frontmatter (triggers, permissions, safe outputs) with natural language instructions that a coding agent follows at runtime. When triggered, GitHub Actions compiles the workflow and runs a Copilot coding agent that executes the instructions autonomously.
+An agentic workflow is a markdown file that combines YAML frontmatter (triggers, permissions, safe outputs) with natural language instructions that a coding agent follows at runtime. The markdown file is the source: you use the `gh aw` CLI to compile it into a `.lock.yml` workflow file, and GitHub Actions runs that compiled workflow to execute a Copilot coding agent that follows the instructions autonomously.
 
 **Key characteristics**:
 - Defined in a single `.md` file — no YAML actions syntax required
