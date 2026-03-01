@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://github.github.io/awesome-copilot",
+  site: "https://awesome-copilot.github.com/",
   base: "/awesome-copilot/",
   output: "static",
   integrations: [sitemap()],
